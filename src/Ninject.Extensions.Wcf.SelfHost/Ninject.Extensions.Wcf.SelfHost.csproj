@@ -63,7 +63,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\resPartner\Source Code\3rd Party\ServiceModelEx\ServiceModelEx.csproj">
+    <ProjectReference Include="..\..\..\ServiceModelEx\ServiceModelEx.csproj">
       <Project>{0858c710-af53-4049-b98e-cfe3638d1228}</Project>
       <Name>ServiceModelEx</Name>
     </ProjectReference>
