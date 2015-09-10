@@ -24,11 +24,12 @@ namespace Ninject.Extensions.Wcf
     using System;
     using System.ServiceModel;
     using System.ServiceModel.Description;
+    using ServiceModelEx;
 
     /// <summary>
     /// A service host that uses Ninject to create the service instances.
     /// </summary>
-    public class NinjectServiceHost : ServiceHost
+    public class NinjectServiceHost : ServiceHostEx
     {
         /// <summary>
         /// The service behavior.

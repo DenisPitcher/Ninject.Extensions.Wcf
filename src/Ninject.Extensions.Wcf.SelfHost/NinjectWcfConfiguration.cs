@@ -21,6 +21,7 @@
 
 namespace Ninject.Extensions.Wcf.SelfHost
 {
+    using ServiceModelEx;
     using System;
     using System.ServiceModel;
 

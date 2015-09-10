@@ -63,6 +63,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\resPartner\Source Code\3rd Party\ServiceModelEx\ServiceModelEx.csproj">
+      <Project>{0858c710-af53-4049-b98e-cfe3638d1228}</Project>
+      <Name>ServiceModelEx</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Ninject.Extensions.Wcf\Ninject.Extensions.Wcf.csproj">
       <Project>{95906A18-0F51-4FFC-96AE-27F9A147BBAA}</Project>
       <Name>Ninject.Extensions.Wcf</Name>
